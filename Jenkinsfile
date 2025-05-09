@@ -7,6 +7,7 @@ pipeline {
                 // echo 'Hello World'
                 sh 'git log -1 HEAD --oneline'
                 sh 'ls -la'
+                sh 'docker ps'
             }
         }
     }
